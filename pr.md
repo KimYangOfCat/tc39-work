@@ -1,5 +1,5 @@
 ---
-title: "如何针对 ECMAScript 规范创建一个拉取请求"
+title: "如何针对 ECMAScript 规范创建一个拉取请求？"
 date: 2021-05-28
 tags: [ECMA]
 categories: [🌏 翻译校对]

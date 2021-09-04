@@ -17,21 +17,21 @@
   - [向 TC39 提交提案](presenting.md)
   - [如何阅读一份提案草案？](how-to-read.md)
   - [如何提出有用的反馈？](feedback.md)
-  - [Stage 3 Proposal Reviews](stage-3-review.md)
-  - [How to experiment with a proposal before Stage 4](experiment.md)
-  - [Implementing and shipping TC39 proposals](implement.md)
+  - [阶段 3 提案评审](stage-3-review.md)
+  - [如何在第 4 阶段之前体验一个提案？](experiment.md)
+  - [简述 TC39 提案的实现和交付](implement.md)
 
 - 会议
-  - [How to host a TC39 meeting](host.md)
-  - [How to participate in meetings](how-to-participate-in-meetings.md)
+  - [如何举办一个 TC39 会议？](host.md)
+  - [如何参与会议？](how-to-participate-in-meetings.md)
   - [如何做会议记录？](how-to-take-notes.md)
-  - [How to run an online meeting](call.md)
+  - [如何召开在线会议？](call.md)
 
 - 管理
-  - [Becoming a TC39 delegate](join-tc39.md)
+  - [成为 TC39 代表](join-tc39.md)
   - [Becoming a TC39 invited expert](invited-expert.md)
   - [TC39 management](management.md)
-  - [TC39 and IP](ip.md)
+  - [TC39 与知识产权（IP）](ip.md)
 
 - 其他
   - [Archival of TC39 materials](archival.md)
