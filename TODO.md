@@ -1,3 +1,10 @@
+---
+title: "建议为本仓库增加的内容列表"
+date: 2021-09-04
+tags: [ECMA]
+categories: [🌏 翻译校对]
+---
+
 - [ ] **Rationale**  
   A document explaining what drives the decision we make as a body. (https://github.com/tc39/rationale)
 - [ ] **Jargon**  

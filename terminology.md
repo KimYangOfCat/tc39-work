@@ -1,3 +1,10 @@
+---
+title: "Glossary"
+date: 2021-09-04
+tags: [ECMA]
+categories: [🌏 翻译校对]
+---
+
 The purpose of this doc is to collect some of the most common terms/considerations that come up while designing features for Javascript at TC39.
 
 These aren’t, by any means, meant to be taken as patterns/principles in that, often, they inform rather than prescribe: historically, they are never taken as a hard design constraint or direction but rather considerations that inform tradeoffs between design choices.

@@ -1,3 +1,9 @@
+---
+title: "Matrix new user guide for TC39 delegates"
+date: 2021-09-04
+tags: [ECMA]
+categories: [🌏 翻译校对]
+---
 # Matrix new user guide for TC39 delegates
 
 1. Choose a client

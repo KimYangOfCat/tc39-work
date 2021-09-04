@@ -1,4 +1,9 @@
-# TC39 Incubator Call Participation Guidelines
+---
+title: "TC39 Incubator Call Participation Guidelines"
+date: 2021-09-04
+tags: [ECMA]
+categories: [🌏 翻译校对]
+---
 
 A model of the TC39 working mode is this flowchart:
 

@@ -1,37 +1,49 @@
-# Presenting a Proposal to TC39
+---
+title: "向 TC39 提交提案"
+date: 2021-06-03
+tags: [ECMA]
+categories: [🌏 翻译校对]
+---
 
-## Preparing Content
+## 准备内容
 
-Ahead of a TC39 meeting, produce public documentation about your proposal. GitHub is the typical place for this--very early proposals may be a Gist, and small proposals may be documented in an issue or pull request, but large proposals live best in their own repository (initially a personal repository, but later transferred to the tc39 organization if it achieves Stage 1).
+在 TC39 会议之前，请提供有关您的提案的公共文档。GitHub 是典型的解决方案 —— 提案的早期可能是个 Gist，小的提案可能会记录在 issue 或 PR（pull request）中，但是大型提案最好放在自己的 Github 仓库中（最初可以是个人仓库，但如果达到提案的第 1 阶段，则需要转移仓库到 tc39 组织中）。<!-- more -->
 
-Your proposal to TC39 should be towards a particular purpose: Think through what you're trying to communicate to the committee and what you'd like to get out of the presentation. Possible goals include:
-- Advancing a proposal to a particular stage
-- Introducing a new idea or way of thinking to the group to consider which may be built on or developed in the future
-- Getting consensus on a normative or editorial pull request
-- Reporting progress on an ongoing effort, to solicit feedback
+您对 TC39 的提案应针对特定目的：仔细考虑您想与委员会沟通的内容以及您希望从演示文稿中获得的信息。可能的目标包括：
+- 将提案推进到特定阶段
+- 向小组提供一个关于将来可能会被考虑建设或者被开发的新的想法或思考的方式
+- 在一个规范的、大家一起参与讨论的 PR（pull request）上达成共识
+- 报告当前工作的进度，以征求反馈意见
 
-Take time to work on your proposal ahead of the committee meeting. This pre-work can include
-- Thinking through the idea in depth
-- Talking it over with various people, both inside and outside of the committee, in person, GitHub issues, IRC, etc.
-- Writing up supporting documents explaining the idea, including in more depth than might fit in a presentation
-- Prototyping the idea in code (e.g., implementation in a polyfill, transpiler implementation, browser, conformance tests, sample applications using the feature, etc.)
+您可以在委员会会议之前花一些时间来准备您的提案。这项准备工作可以包括：
+- 深入思考提案中的想法
+- 与委员会内部和外部的各种人员进行讨论，面对面、GitHub issue、IRC 等
+- 撰写解释该想法的辅助文档，包括比演示文稿更加深入的内容
+- 用代码对想法进行原型实现（例如，在 polyfill 中实现，转译器实现，浏览器，一致性测试，使用该功能的示例应用程序等）
 
-### Creating Slides
+### 创建幻灯片
 
-A slide presentation is not required, but it can help the audience follow the presentation. Some tips for effective slide presentations:
-- **State the goal of your presentation up front.** No need for theatrics, given that you've already published the presentation online. Being clear in emphasizing your main points will make the presentation easier to follow.
-- **Don't include too much text on the slides.** You want the audience to follow your talk, not reading the fine print on the slides. Also keep in mind, different people have different capabilities for vision (and it can be difficult to raise the issue if everyone else is acting like they have no problem)--using large text will ensure that more of the audience can read the slides.
-- **Include examples.** Programming language design can be abstract sometimes; let's bring it down to earth with applications and code samples.
-- **Create a narrative flow in the presentation.** Your presentation is telling a story about the existence of a problem, its status, and the proposed solution. Making the flow clear will help more of the audience follow the presentation.
+幻灯片演示不是必需的，但可以帮助观众跟得上演示。关于制作有效的幻灯片演示的一些提示：
+- **预先陈述演示文稿的目标。** 因为您已经在线上发布了演示文稿，因此无需进行戏剧性铺垫。清楚地强调您的要点将使演示更易于理解。
+- **不要在幻灯片上包含太多文字。** 您希望听众跟随您的演讲，而不是阅读幻灯片上的精美文字。还要注意的是，大家的视力都不是一样的（如果其他人都表现得像是没有任何问题一样，那么就很难提出问题）—— 使用大字号的文本可以确保更多的观众能看清楚幻灯片的内容。
+- **包含示例。** 编程语言设计有的时候会比较抽象，所以我们需要通过应用程序和代码示例来让其更接地气。
+- **在演示文稿中创建一个叙述流程。** 您的演示文稿会讲述一个现存的问题，这个问题的现状以及解决方案。让流程清晰明了将有助于更多的观众关注此演示文稿。
 
-### Getting on the agenda
+### 提上议程
 
-To propose a presentation for a TC39 meeting, make a pull request against the [agenda](https://github.com/tc39/agendas/) for the upcoming TC39 meeting where you want to give the presentation. The further in advance you put your proposal on the agenda, the more time TC39 delegates will have to review your proposal in advance, and the further the committee can advance when everyone meets. The agenda includes the deadline to add proposals which are seeking stage advancement.
+如果需要在 TC39 会议上发言，请针对即将要在其中进行演示的 TC39 会议的[议程](https://github.com/tc39/agendas/)提出 PR（pull request）。您的提案提交到议程越早，TC39 代表将有更多的时间提前审查您的提案，并且在大家开会时委员会可以推进得越多。议程中包括添加寻求阶段进展提案的截止日期。
 
-## Presentation Tips
+## 发言提示
 
-- **Practice ahead of time.** If you're taking the time to champion a proposal, there's no doubt that you know your content and know it well. So make sure to communicate that knowledge by being prepared with what you want to say ahead of time.
-- **Speak into the microphone.** We're a large group taking up large rooms, and microphones are no longer a luxury. Make sure everyone can hear what you have say. Speak slowly and clearly--this will help everybody in the audience, including people who learned English as a second language and are hard of hearing.
-- **Plan for questions.** Review your material for likely questions and try to answer them before they're asked. Chat with other delegates ahead of time to see what questions they commonly have. Leave time for discussion and questions at the end of your presentation. 
-- **Expect some bikeshedding.** This is a group of people who are here _because of_ our opinions, and it's easy to wander into bikeshed territory when given the opportunity. One clever way to work around this is to identify ahead of time which trivial details are the most likely candidates for bikeshedding and create threads for them on the proposal's github repo. Point people to the issue threads to keep them on task during your allotted meeting time.
-- **Keep in mind the diversity of the audience.** Some people will be familiar with concepts that you're basing the proposal on, and some people won't. The audience will have varying combinations of backgrounds in theory, JS engine development background, and JS application development; nobody knows everything, and our strength is in harnessing this diversity. If you can make your presentation accessible to the entire audience, you can be more persuasive.
+- **提前练习。** 如果您花费了精力去拥护一个提案，那么毫无疑问，您知道提案的内容并且非常了解它。因此，请务必提前准备好要说的内容，以传达这些知识点。
+- **对着麦克风讲话。** 我们是一个需要占用大房间的大团体，麦克风不再是一种奢侈。确保每个人都能听到您说的话。说话要缓慢而清晰 —— 这将帮助听众中的每个人，包括将英语作为第二语言学习且听力不佳的人。
+- **准备一些问题。** 复查您的材料中可能被问到的问题，并在别人提问之前尝试回答它们。提前与其他代表沟通，以了解他们通常遇到的问题。在发言的末尾留出提问题和讨论的时间。
+- **预想一些琐碎有争议的点。** 这是一群有观点有想法的人，一旦有机会，很容易就陷入到一些琐碎的有争议的事情上。解决此问题的一种聪明方法是提前确定哪些琐碎细节最有可能成为争论的焦点，并在提案的 Github 库上为其创建话题。将人员引导至该话题的 issue，以使他们在分配给你的会议时间内做对应的事情。
+- **请记住观众的多样性。** 有些人会熟悉您提案中涉及的一些概念，而有些人则不会。观众将是拥有不同理论背景的组合，比如 JS 引擎开发背景和 JS 应用程序开发背景；没有人是无所不知的，而我们的优势就在于利用这种多样性。如果您可以使您的演示文稿被所有观众无障碍的理解，那么您将更具说服力。
+
+> - 原文地址：[Presenting a Proposal to TC39](https://github.com/tc39/how-we-work/blob/master/presenting.md)
+> - 原文作者：[Ecma TC39](https://github.com/tc39/how-we-work)
+> - 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
+> - 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/article/ECMA-TC39/Presenting-a-Proposal-to-TC39.md](https://github.com/xitu/gold-miner/blob/master/article/ECMA-TC39/Presenting-a-Proposal-to-TC39.md)
+> - 译者：[NieZhuZhu（弹铁蛋同学）](https://github.com/NieZhuZhu)
+> - 校对者：[Songfeng Li（李松峰）](https://github.com/cncuckoo)、[Kim Yang](https://github.com/KimYangOfCat)、[Hoarfroster](https://github.com/PassionPenguin)

@@ -11,12 +11,12 @@
   - [建议为本仓库增加的内容列表](TODO.md)
 
 - 提案
-  - [Championing a proposal at TC39](champion.md)
-  - [How to write a good explainer](explainer.md)
-  - [How to make a Pull Request against the ECMAScript specification](pr.md)
-  - [Presenting a Proposal to TC39](presenting.md)
-  - [Reading a proposal draft](how-to-read.md)
-  - [How to give helpful feedback](feedback.md)
+  - [如何在 TC39 提起一项提案？](champion.md)
+  - [如何写一个好的说明文件](explainer.md)
+  - [如何针对 ECMAScript 规范创建一个拉取请求？](pr.md)
+  - [向 TC39 提交提案](presenting.md)
+  - [如何阅读一份提案草案？](how-to-read.md)
+  - [如何提出有用的反馈？](feedback.md)
   - [Stage 3 Proposal Reviews](stage-3-review.md)
   - [How to experiment with a proposal before Stage 4](experiment.md)
   - [Implementing and shipping TC39 proposals](implement.md)
@@ -24,7 +24,7 @@
 - 会议
   - [How to host a TC39 meeting](host.md)
   - [How to participate in meetings](how-to-participate-in-meetings.md)
-  - [How to take notes](how-to-take-notes.md)
+  - [如何做会议记录？](how-to-take-notes.md)
   - [How to run an online meeting](call.md)
 
 - 管理

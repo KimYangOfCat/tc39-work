@@ -1,94 +1,108 @@
-# How to write a good explainer
+---
+title: "如何写一个好的说明文件"
+date: 2021-05-29
+tags: [ECMA]
+categories: [🌏 翻译校对]
+---
 
-Each TC39 proposal should have a README.md file which explains the purpose of the proposal and its shape at a high level. [This guide](https://github.com/w3ctag/w3ctag.github.io/blob/master/explainers.md) by the W3C TAG has a good introduction for web specifications
+每一个 TC39 提案都应该包含 README.md 文件来说明该提案目的和高层的发展方向。这篇由 W3C TAG 发布的[指南](https://github.com/w3ctag/w3ctag.github.io/blob/master/explainers.md)为网络规范提供了一个良好的入门说明。<!-- more -->
 
-This page you're on has some additional advice for how to write an explainer for TC39 proposals, with an outline for content that you might want to include in your proposal's explainer. For some well-written explainers in recent proposals, see [Promise.allSettled](https://github.com/tc39/proposal-promise-allSettled), the [Temporal proposal](https://github.com/tc39/proposal-temporal), or [RegExp Unicode property escapes](https://github.com/tc39/proposal-regexp-unicode-property-escapes).
+您浏览指南时会发现其中附加了一些关于如何书写 TC39 提案说明的建议，以及可能想在您的提案说明文件中引用的内容大纲。
+如果您想要浏览近期提案中优质的说明书文件，请看 [Promise.allSettled](https://github.com/tc39/proposal-promise-allSettled)，[Temporal proposal](https://github.com/tc39/proposal-temporal)，或者是 [RegExp Unicode property escapes](https://github.com/tc39/proposal-regexp-unicode-property-escapes)。
 
-The rest of this page can be used as a template, to put in your README.md. Not all sections need to be included: This is just a series of optional suggestions. In *italics* is the instructions, and in plain text is the example text. Most of what's here besides the headings should be replaced by your own content.
+本页接下来的内容可以作为您的 README.md 文件中的模板。并非模板中的所有章节都需要被引入，下面的内容只是一系列可选择的建议。**加粗字样**是说明，而纯文本是示例文本。除了标题，这里的大部分内容都应该用您自己的内容代替。
 
 ----
 
-# Frobnicator
+# 装配器（Frobnicator）
 
-## Status
+## 状态
 
-Champion(s): *champion name(s)*
-Author(s): *non-champion author(s), if applicable*
-Stage: -1
+提案发起人：**提案发起人姓名**
+作者：**非主要作者姓名，如果有的话**
+阶段：-1
 
-## Motivation
+## 动机
 
-*Why is this important to have in the JavaScript language?*
+**为什么这在 JavaScript 语言中很重要？**
 
-Frobnication comes up in all areas of computer science, in both front-end and back-end programming. See [CATB](http://catb.org/jargon/html/F/frobnicate.html) for details.
+不断的修改和调整代码存在于计算机的所有领域中，无论是前端还是后端开发。
+详细信息请看 [CATB](http://catb.org/jargon/html/F/frobnicate.html)。
 
-## Use cases
+## 用例
 
-*Some realistic scenarios using the feature, with both code and description of the problem; more than one can be helpful.*
+**列举出使用该特性的一些实际场景，以及代码和问题描述；多个用例可能会有帮助。**
 
-**Server-side static frobnication**: Say you want to frobnicate a thing. Then, you would normally have to do all this stuff. If it's in the standard library, it'd be easier.
+**服务端静态装配（Server-side static frobnication）**：加入想要装配某个功能，那么您将要做所有的一系列工作。如果有标准的第三方库提供，这些事情就会容易很多。
 
 ```js
 frobnicate({});
 ```
 
-**Dynamic frobnicate cases**: The object is provided in a different way, and a different sort of use case comes up, which can be met by the same feature.
+**动态装配案例（Dynamic frobnicate cases）：**：对象以不同的方式提供，并且出现了可以由相同的功能实现的不同类型的用例。
 
-## Description
+## 描述
 
-*Developer-friendly documentation for how to use the feature*
+**一份对开发者友好的文档应该写明如何使用特性**
 
-`frobnicate(object)` returns the frobnication of object.
+`frobnicate(object)`返回了调整过的对象。
 
-## Comparison
+## 比较
 
-*A comparison across various related programming languages and/or libraries. If this is the first sort of language or library to do this thing, explain why that is the case. If this is a standard library feature, a comparison across the JavaScript ecosystem would be good; if it's a syntax feature, that might not be practical, and comparisons may be limited to other programming languages.*
+**相关编程语言和类似的第三方库之间的横向比较。如果当前项目是该语言或者该第三方库第一次对某功能的实现，就请解释为什么该功能是应该实现的。如果这是一个标准库的特性，那么最好在 JavaScript 的生态中做横向比较；如果这是语法特性，那可能不切实际，并且在不同编程语言之间的横向比较则可能会受限。**
 
-These npm modules do something like the proposal:
+npm 模块按照提案实现了以下功能：
 - [frobnicate-2018](https://www.npmjs.com/package/frobnicate-2018)
-- [B](link)
-- [C](link)
+- [B](#)
+- [C](#)
 
-frobnicate-2018 is weird because xyz, whereas B is weird because jkl, so we take a version of the approach in C, modified by qrs.
+frobnicate-2018 是一个奇怪的特性，因为...，然而 B 也是奇怪的因为...，所以我们采用了 C 中的方法，这一方法由...进行修改。
 
-The standard libraries of these programming languages includes related functionality:
-- APL (links to the relevant documentation for each of these)
+这些编程语言的标准库包含相关的功能：
+- APL (对于涉及到的每一项都应该有相关文档的链接)
 - PostScript
 - Self
 - XSLT
 - Emacs Lisp
 
-Our approach is pretty similar to the Emacs Lisp approach, and it's clear from a manual analysis of billions of Stack Overflow posts that this is the most straightforward to ordinary developers.
+我们的方法与 Emacs Lisp 方法非常相似，通过对数十亿篇 Stack Overflow 文章的手工分析可以清楚地看出，对于普通开发者来说，这是最直接的方法。
 
-## Implementations
+## 实现
 
-### Polyfill/transpiler implementations
+### Polyfill/转译器的实现
 
-*A JavaScript implementation of the proposal, ideally packaged in a way that enables easy, realistic experimentation. See [implement.md](https://github.com/tc39/how-we-work/blob/master/implement.md) for details on creating useful prototype implementations.*
+**该提案的一种 JavaScript 实现方式，其能以简单、可行的方式进行打包。关于创建原型实现的详细信息，请参见 [implement.md](https://github.com/tc39/how-we-work/blob/master/implement.md)。**
 
-You can try out an implementation of this proposal in the npm package [frobnicate](https://www.npmjs.com/package/frobnicate). Note, this package has semver major version 0 and is subject to change.
+您可以使用 npm 包  [frobnicate](https://www.npmjs.com/package/frobnicate) 中尝试这个提案的实现。注意，这个包有 semver 主版本 0，可能会发生变化。
 
-### Native implementations
+### 简单实现
 
-*For Stage 3+ proposals, and occasionally earlier, it is helpful to link to the implementation status of full, end-to-end JavaScript engines. Filing these issues before Stage 3 is somewhat unnecessary, though, as it's not very actionable.*
+**对于阶段 3 以上或者更早的提案，将完全的、端到端的 JavaScript 引擎的实现状态链接到文中是非常有帮助的。然而在阶段 3 之前填充这些提议因为有些不太可行，所以显得有些多余。**
 
-- [V8]() (*Links to tracking issues in each JS engine*)
-- [JSC]()
-- [SpiderMonkey]()
+- [V8]() （**提供在 JS 引擎中用于跟踪问题的链接**）
+- [JSC](#)
+- [SpiderMonkey](#)
 - ...
 
 ## Q&A
 
-*Frequently asked questions, or questions you think might be asked. Issues on the issue tracker or questions from past reviews can be a good source for these.*
+**常见问题，或者您认为可能会被问到的问题。issues 上的问题或过去 reviews 中的问题可能是编写这一部分的很好的参考。**
 
-**Q**: Why is the proposal this way?
+**问题**：该提案的设计初衷是什么？
 
-**A**: Because reasons!
+**回答**：因为……
 
-**Q**: Why does this need to be built-in, instead of being implemented in JavaScript?
+**问题**：为什么他需要被内置实现而不是在 JavaScript 中实现？
 
-**A**: We could encourage people to continue doing this in user-space. However, that would significantly increase load time of web pages. Additionally, web browsers already have a built-in frobnicator which is higher quality.
+**回答**：我们可以鼓励用户在用户空间中做这件事。然而，这样会非常严重地增加页面的加载时间。不仅如此，web 浏览器已经有高质量的内置装配模块。
 
-**Q**: Is it really necessary to create such a high-level built-in construct, rather than using lower-level primitives?
+**问题**：真的有必要创建这样一个高级的内置装配模块而不是使用低级特性吗？
 
-**A**: Instead of providing a direct `frobnicate` method, we could expose more basic primitives to compose an md5 hash with rot13. However, rot13 was demonstrated to be insecure in 2012 (citation), so exposing it as a primitive could serve as a footgun.
+**回答**：我们可以暴露更多的基础特性来组装 MD5 哈希模块和 ROT13 模块而不是提供一个直接的 `frobnicate` 方法。然而 rot13 在 2012 年被发现是不安全的，所以将它作为一个基础特性暴露可能会导致相关的安全问题。
+
+> * 原文地址：[How to write a good explainer](https://github.com/tc39/how-we-work/blob/master/explainer.md)
+> * 原文作者：[Ecma TC39](https://github.com/tc39/how-we-work)
+> * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/article/ECMA-TC39/How-to-write-a-good-explainer.md](https://github.com/xitu/gold-miner/blob/master/article/ECMA-TC39/How-to-write-a-good-explainer.md)
+> * 译者：[Ashira97](https://github.com/Ashira97)
+> * 校对者：[Kim Yang](https://github.com/KimYangOfCat)、[Kimberly](https://github.com/kimberlyohq)、[Hoarfroster](https://github.com/PassionPenguin)

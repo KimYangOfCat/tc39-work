@@ -1,25 +1,37 @@
-# Stage 3 Proposal Reviews
+---
+title: "阶段 3 提案评审"
+date: 2021-05-31
+tags: [ECMA]
+categories: [🌏 翻译校对]
+---
 
-According to [the TC39 process document](https://tc39.es/process-document), to advance from Stage 2 to Stage 3, reviewers and the editor group must sign off on the spec text. This document describes the Stage 3 review process.
+根据 [TC39 流程文档](https://tc39.es/process-document)，提案要从阶段 2 过渡到阶段 3，必须要评审人员和编辑小组在规范文档上签字。本文主要介绍阶段 3 的审核过程。
+<!-- more -->
+## 选择评审人
 
-## Choosing reviewers
+作为志愿者，阶段 3 的评审人员在 TC39 会议中讨论提案。如果提案准备就绪，提案的发起人可以在提案进入第二阶段的同一次会议上，要求委员会进行提案审查。规模较大的提案鼓励有多位评审人参与。因为不同的评审人员可以提供不同的评审视角。
 
-Reviewers for Stage 3 volunteer as such in TC39 meetings when discussing a proposal. If the proposal is ready, the champion can ask the committee for reviewers at the same meeting as it advances to Stage 2. Sizable proposals are encouraged to have multiple reviewers. Different reviewers can provide different perspectives.
+评审人员的反馈将会在提案库的 GitHub 议题（issue）被追踪（[示例](https://github.com/tc39/proposal-regexp-unicode-property-escapes/issues/3)）。在会议开始之前，给评审人员发一封邮件可能也是有帮助的。 
 
-Reviewer feedback is tracked in a GitHub issue in the proposal repository ([example](https://github.com/tc39/proposal-regexp-unicode-property-escapes/issues/3)). It may also be useful to send out a reminder email ahead of the meeting to the reviewers.
- 
-## Performing a review
+## 进行提案评审
 
-When reviewing a TC39 proposal, read the specification text, README and other documentation carefully. Some questions which may be useful to consider in a review:
-- Does the proposal address its stated motivation?
-- Is this language feature intuitive and learnable?
-- Does the proposal fit in well when combined with other JavaScript language features (both current and proposed, a.k.a. "cross-cutting concerns")? Will the interactions between features be surprising or strange?
-- Does the proposal scope make sense, or would this make more sense as a larger or smaller proposal?
-- Does the specification text completely cover every aspect of the proposal, or are some things unstated?
-- Is the specification text logical and consistent, matching the rest of the JavaScript specification?
-- Do all of the details and edge cases seem reasonably motivated?
+在评审 TC39 提案时，请仔细阅读规范说明、README 和其他文档。在评审过程中，下面的几个问题点可能对你有帮助：
 
-To give your feedback to the champion group, file issues in GitHub, or make pull requests with proposed changes.
+- 该提案是否与其提案动机相关联？
+- 该提案的语言特性是否直观和易于学习？
+- 该提案和其他 JavaScript 语言特性（当前的特性和提案中的特性，即横切关注点）是否匹配？这两者之间的交互是否出人意料或者令人感觉陌生？
+- 该提案是否有意义，或者将它作为更高一级提案或低一级提案更具匹配一些？
+- 规范说明书是否完全覆盖了提案的各个方面，还是说存在一些未加以说明的地方？
+- 规范文本的逻辑性和一致性和其他 JavaScript 规范是否匹配？
+- 所有的提案细节和边界案例是不是都有合理的动机？
 
-Reviews are expected to be performed at least two weeks in advance of the TC39 meeting.
+向提案支持小组提供你的反馈，GitHub 中的议题文件或者提出修改意见的合并请求。
 
+评审将会在 TC39 会议开始前的两周进行。
+
+> * 原文地址：[Stage 3 Proposal Reviews](https://github.com/tc39/how-we-work/blob/master/stage-3-review.md)
+> * 原文作者：[Ecma TC39](https://github.com/tc39/how-we-work)
+> * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/article/ECMA-TC39/Stage-3-Proposal-Reviews.md](https://github.com/xitu/gold-miner/blob/master/article/ECMA-TC39/Stage-3-Proposal-Reviews.md)
+> * 译者：[Usualminds](https://github.com/Usualminds)
+> * 校对者：[Kim Yang](https://github.com/KimYangOfCat)、[PassionPenguin](https://github.com/PassionPenguin)

@@ -1,4 +1,9 @@
-# How to become a TC39 Invited Expert
+---
+title: "How to become a TC39 Invited Expert"
+date: 2021-09-04
+tags: [ECMA]
+categories: [🌏 翻译校对]
+---
 
 ## Overview
 

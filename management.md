@@ -1,4 +1,9 @@
-# TC39 management
+---
+title: "TC39 management"
+date: 2021-09-04
+tags: [ECMA]
+categories: [🌏 翻译校对]
+---
 
 Although TC39 is a flat, consensus-based group, there are some particular organizational tasks where some committee delegates take a coordinating role.
 

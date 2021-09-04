@@ -1,31 +1,43 @@
-# How to host a TC39 meeting
+---
+title: "如何举办一个 TC39 会议？"
+date: 2021-09-04
+tags: [ECMA]
+categories: [🌏 翻译校对]
+---
 
-TC39 hosts six in-person meetings a year. If you want to host a meeting, here's what is required:
+TC39 每年会举办六次面对面会议。如果您想举办其中一场会议，需要满足以下需求：
 
-## Prior to Meeting
-1. Secure a meeting room and catering.
-1. Note the meeting logistics in the TC39 Reflector -- address, where to park, how to get in, contact details, etc.
-1. At least 2 weeks prior to the meeting, the ECMA secretariat will send a Doodle registration link to the reflector to determine an approximate attendee count.
-1. Send the Doodle contacts to your registration desk so credentials can be printed early.
-1. Remove any NDA signing requirements. This may be as simple as informing reception that NDAs are not required.
-1. Reserve a restaurant for the social gathering. The day is flexible (either day 1 or day 2), and costs are shared with ECMA. Note that it is hard to actually get a room for 30+ people so getting started early is recommended.
+## 会议前
+1. 预定会议室和餐饮服务。
+1. 在 TC39 Reflector 中通知会议后勤 —— 包括地点、停车场、如何进入、联系方式等信息。
+1. 至少在会议前 2 周，ECMA 秘书处将向 reflector 发送 Doodle 注册链接，以确定与会者的大致人数。
+1. 将 Doodle 联系人发送到您的登记台，以便尽早打印凭据。
+1. 删除任何 NDA 签署要求。这可能就像通知接收方不需要 NDA 一样简单。
+1. 为社交聚会预订餐厅。具体哪一天是灵活的（第 1 天或第 2 天），费用与 ECMA 分摊。请注意，想找到能接待 30 人以上团体的餐厅实际上比较困难，因此建议尽早预定。
 
-## During the Meeting
-1. Give a short presentation on the facilities - where to find the bathroom, how to use the WiFi, etc.
+## 会议中
+1. 简要介绍设施 —— 在哪里可以找到厕所，如何使用 WiFi 等。
 
-### Meeting Layout
-1. A single-layered circle or square is ideal. Lecture-style seating is discouraged.
-1. Power must be available at all seats. 
-1. There must be an area for attendees to step away for phone calls or meetings.
+### 会议布置
+1. 推荐采用单层的圆形或方形座次，不鼓励演讲式座次。
+1. 所有座位都必须有电源。
+1. 必须有一个能供与会者打电话或开会的区域。
 
-### Meeting Food
-1. Breakfast begins when people are filing in (typically 30-60 minutes prior to the meeting start).
-1. Lunch begins at around 12:00pm.
-1. Coffee & tea should be available throughout the day.
-1. Drinks & snacks (snacks are optional but encouraged - the afternoon break at approximately 3pm is a hungry time)
-1. Please be sensitive to dietary requirements. Vegan is required. Gathering dietary requirements via reflector is encouraged.
+### 会议餐食
+1. 早餐在人们报到时开始（通常在会议开始前 30-60 分钟）。
+1. 午餐于中午 12:00 左右开始。
+1. 咖啡和茶应全天供应。
+1. 饮料和小吃（小吃是可选的，但推荐提供 —— 下午 3 点左右的午休时间是一个饥饿的时间）。
+1. 请注意饮食要求。素食是必需的。鼓励通过 reflector 收集与会者的饮食要求。
 
-### Meeting Technology
-1. Whiteboards and markers
-1. Provide nametags/placards that are ideally visible from both the podium and to other seated delegates. This helps note takers and new members. Pre-printed ones are not necessary. Attendees can fill out their own.
-1. Some sort of telepresence/video conferencing system is required. Please ensure the system is in working order and you know how to use it.
+### 会议设备
+1. 白板和记号笔。
+1. 提供从讲台和其他就座代表都能看到的名牌/标语牌，这对笔记记录者和新成员有帮助。不需要预印的，参会者可自行填写。
+1. 需要某种远程呈现/视频会议系统。请确保系统正常工作并且您知道如何使用它。
+
+> * 原文地址：[How to host a TC39 meeting](https://github.com/tc39/how-we-work/blob/master/host.md)
+> * 原文作者：[Ecma TC39](https://github.com/tc39/how-we-work)
+> * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
+> * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/article/ECMA-TC39/How-to-host-a-TC39-meeting.md](https://github.com/xitu/gold-miner/blob/master/article/ECMA-TC39/How-to-host-a-TC39-meeting.md)
+> * 译者：[PingHGao](https://github.com/PingHGao)
+> * 校对者：[Kimhooo](https://github.com/Kimhooo)，[KimYangOfCat](https://github.com/KimYangOfCat)
