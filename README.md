@@ -3,7 +3,7 @@
 此仓库是还处于进程中的早期工作阶段（WIP）!
 
 关于参与 TC39 的介绍，请查看[贡献指南](https://github.com/tc39/ecma262/blob/master/CONTRIBUTING.md)。
-
+<!-- more -->
 # 目录
 
 - 本仓库信息  

@@ -1,12 +1,12 @@
 ---
 title: "如何在第 4 阶段之前体验一个提案?"
-date: 2021-09-04
+date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
 
 对于敢于冒险并想就提案向 TC39 给予反馈的 JavaScript 程序员而言，可以通过以下几种方式提前尝试新提案：
-
+<!-- more -->
 - 对于不需要通过 TC39 语言设计更改进行维护的代码，通过使用运行时或构建时标志将其打开来试验该功能，例如：
     - 在 Babel 中，启用你选择的 Babel 预设中的功能（请参阅 [babel/proposals](https://github.com/babel/proposals/issues) 了解功能状态）。
     - 使用高级版本的 Web 浏览器，例如 **Edge Insider Edition**、**Safari Tech Preview**、**Firefox Nightly** 或 **Chrome Canary**，以获得某些新语言功能。你可以选择去查看他们的发行说明以了解包含的内容。

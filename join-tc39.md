@@ -1,13 +1,13 @@
 ---
 title: "成为 TC39 代表"
-date: 2021-09-04
+date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
 # 成为 TC39 代表
 
 TC39 是 [Ecma International](http://www.ecma-international.org/) 的一部分。Ecma 成员资格是面向组织而非个人的。你需要作为成员组织加入 Ecma 或者作为一个 Ecma 成员组织的代表，才能参加线下的 TC39 会议。
-
+<!-- more -->
 ## 加入 Ecma
 
 Ecma 有 [多个成员等级](http://www.ecma-international.org/memento/join.htm)，包括面向非营利组织的免费等级和多种基于公司规模的付费等级。想要加入 Ecma,你需要：

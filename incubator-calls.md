@@ -1,6 +1,6 @@
 ---
 title: "TC39 Incubator Call Participation Guidelines"
-date: 2021-09-04
+date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
@@ -12,7 +12,7 @@ A model of the TC39 working mode is this flowchart:
 Incubator calls seek to speed up the process by having a sanctioned timeslot
 every two weeks for stakeholders to present constraints. The general guiding
 principle of the incubator calls is:
-
+<!-- more -->
 <p align=center>
   <i>To present and receive feedback that is relevant for eventual stage advancement.</i>
 </p>

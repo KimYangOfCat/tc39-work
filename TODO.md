@@ -1,6 +1,6 @@
 ---
 title: "建议为本仓库增加的内容列表"
-date: 2021-09-04
+date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
@@ -17,3 +17,4 @@ categories: [🌏 翻译校对]
 - [ ] A longer to-do list with more specific documents (like rationale and jargon)
 - [ ] educational materials on how to create quality proposals, finding a champion, presenting your ideas in a way that delegates will be able to use
 - [ ] would it make more sense for this to be a github wiki?
+<!-- more -->

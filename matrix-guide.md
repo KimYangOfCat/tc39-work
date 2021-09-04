@@ -1,15 +1,14 @@
 ---
 title: "Matrix new user guide for TC39 delegates"
-date: 2021-09-04
+date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
-# Matrix new user guide for TC39 delegates
 
 1. Choose a client
 
     Like IRC and unlike many closed platforms, Matrix is an open protocol. Therefore, you can choose which client(s) you would prefer to use based on your preferred workflow.
-
+<!-- more -->
     If you don't care too much and just want something that "works", we recommend [Element] (web, desktop and mobile).
 
     If you want to explore further or experiment with alternate clients, check out this [list of clients].

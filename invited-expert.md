@@ -1,6 +1,6 @@
 ---
 title: "How to become a TC39 Invited Expert"
-date: 2021-09-04
+date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
@@ -8,7 +8,7 @@ categories: [🌏 翻译校对]
 ## Overview
 
 A TC39 ***Invited Expert*** is a person who is invited to participate in TC39.  They have access to the Reflector and can attend meetings and participate in discussion similar to normal delegates.
-
+<!-- more -->
 The purpose of this role, as agreed with Ecma, is to allow individuals working on strategic open source projects to fully participate in the committee without being employed by an Ecma member.  For example, project members representing Babel and Rollup.
 
 ## Joining Process

@@ -1,12 +1,12 @@
 ---
 title: "Archival of TC39 materials"
-date: 2021-09-04
+date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
 
 It's important to preserve good records of TC39's decision-making process and reasons for technical decisions made. These records are useful when considering revisiting a decision, when making decisions in related areas, for historical purposes, and more. This page summarizes what's involved at a high level to make that happen.
-
+<!-- more -->
 ## Meeting minutes
 
 Rick Waldron is the coordinator and editor of TC39 meeting minutes.
