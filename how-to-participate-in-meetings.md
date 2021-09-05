@@ -41,7 +41,7 @@ _如何使用_：
 
 在演讲期间，如果您对演讲者提到的内容感兴趣，并想要进一步的说明或发表评论，您可以在 queue 中执行此操作。共有三个选项：新主题、问题说明和程序问题。它看起来像这样：
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1grjeu1jnpwj315x0u0jyq.jpg)
+![](https://picbed.kimyang.cn/202109050850866.jpg)
 
 在顶部，我们有正在讨论的议程项目，然后是正在讨论的 queue 条目。之后，我们有一堆按钮！
 
@@ -49,7 +49,7 @@ _如何使用_：
 
 其余四个按钮！
 
-![](https://tva1.sinaimg.cn/large/008i3skNgy1grjeuf5zw6j310c03m3z4.jpg)
+![](https://picbed.kimyang.cn/202109050850683.jpg)
 
 一个与当前主题分开的新主题，并开始一个可能添加问题说明的新线程。新主题按添加到 queue 的时间排序。
 

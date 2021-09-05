@@ -7,7 +7,7 @@ categories: [🌏 翻译校对]
 
 A model of the TC39 working mode is this flowchart:
 
-![TC39 Working Mode](images/tc39-working-mode.svg)
+![TC39 Working Mode](https://picbed.kimyang.cn/202109050851516.svg)
 
 Incubator calls seek to speed up the process by having a sanctioned timeslot
 every two weeks for stakeholders to present constraints. The general guiding
