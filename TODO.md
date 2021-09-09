@@ -1,20 +1,19 @@
 ---
-title: "建议为本仓库增加的内容列表"
+title: 建议为本仓库增加的内容列表
 date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
 
-- [ ] **Rationale**  
-  A document explaining what drives the decision we make as a body. (https://github.com/tc39/rationale)
-- [ ] **Jargon**  
-  A document to serve as a glossary for acronyms and other terms vital to our work but perhaps not immediately obvious to anyone new (https://github.com/tc39/how-we-work/blob/master/terminology.md)
-- [ ] A more humane explanation of what we do
-- [ ] A TL;DR of Allen's excellent "Patterns for Participation" pdf that newcomers are given.
-- [ ] A slightly longer, but still concise, version for people who are trying to wrap their heads around it but aren't ready for "what to do if/when i start"
-- [ ] A package of information for people who want to get involved as non-members
-- [ ] A package of information for people who want to get involved as members
-- [ ] A longer to-do list with more specific documents (like rationale and jargon)
-- [ ] educational materials on how to create quality proposals, finding a champion, presenting your ideas in a way that delegates will be able to use
-- [ ] would it make more sense for this to be a github wiki?
+- [ ] 基本**原理**<br>一份文件，解释是什么推动了我们作为一个整体做出的决定。 （https://github.com/tc39/rationale）
+- [ ]**行话**<br>用作首字母缩略词和其他对我们的工作至关重要的术语的词汇表的文档，但对于任何新人来说可能不是很明显（https://github.com/tc39/how-we-work/blob/master/terminology.md）
+- [ ] 对我们所做的更人性化的解释
+- [ ] Allen 优秀的“参与模式”pdf 的 TL;DR，专为新人提供。
+- [ ] 一个稍长但仍然简洁的版本，适用于那些试图参与但还不知道“如果..时该怎么做/该什么时候开始”的人
+- [ ] 为想要作为非会员参与的人们提供的信息包
+- [ ] 为想要成为会员的人提供的信息包
+- [ ] 更长的待办事项列表，包含更具体的文件（如基本原理和行话）
+- [ ] 关于如何创建高质量提案、寻找支持者、以代表能够使用的方式展示您的想法的材料
+- [] 将其作为 github wiki 会更有意义吗？
+
 <!-- more -->

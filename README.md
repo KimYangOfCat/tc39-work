@@ -29,14 +29,25 @@
 
 - 管理
   - [成为 TC39 代表](join-tc39.md)
-  - [Becoming a TC39 invited expert](invited-expert.md)
-  - [TC39 management](management.md)
+  - [如何成为 TC39 特邀专家？](invited-expert.md)
+  - [TC39 管理](management.md)
   - [TC39 与知识产权（IP）](ip.md)
 
 - 其他
-  - [Archival of TC39 materials](archival.md)
-  - [Glossary and Considerations](terminology.md)
+  - [TC39 材料存档](archival.md)
+  - [词汇表](terminology.md)
 
 ---
 # 整理本仓库的原由
-之前掘金翻译计划提出了关于翻译 TC39 文档的计划，本人有幸参与了本仓库的一些文档的翻译校对工作，便想将其整理一下，放到我的个人博客上。
+之前掘金翻译计划提出了关于翻译 TC39 文档的计划，本人有幸参与了本仓库的一些文档的翻译校对工作，便想将其整理一下，转载到我的个人博客上。若发现翻译相关错误，欢迎提出 issue 及 PR。
+
+本仓库还有一些文档尚未完成翻译，但由于目前其尚处于 WIP 阶段，后续原仓库相关内容可能经历大幅改动，故现阶段不再花费时间完善剩余内容！直到仓库度过 WIP 阶段，也许会考虑重启本仓库的翻译工作！
+
+## 致谢
+感谢所有译者的付出（以下排名不分先后）：
+
+| [PassionPenguin](https://github.com/PassionPenguin) | [Kim Yang](https://github.com/KimYangOfCat) | [Usualminds](https://github.com/Usualminds) | [Songfeng Li（李松峰）](https://github.com/cncuckoo) | [NieZhuZhu（弹铁蛋同学）](https://github.com/NieZhuZhu) | [kimberlyohq](https://github.com/kimberlyohq) |
+| --------------------------------------------------- | ------------------------------------------- | ------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------- | --------------------------------------------- |
+| [CarlosChenN](https://github.com/CarlosChenN)       | [finalwhy](https://github.com/finalwhy)     | [Zz招锦](https://github.com/zenblo)         | [greycodee](https://github.com/greycodee)            | [PingHGao](https://github.com/PingHGao)                 | [Kimhooo](https://github.com/Kimhooo)         |
+| [Miigon](https://github.com/Miigon)                 | [Ashira97](https://github.com/Ashira97)     | [zaviertang](https://github.com/zaviertang) | [JohnieXu](https://github.com/JohnieXu)              |                                                         |                                               |
+

@@ -1,40 +1,44 @@
 ---
-title: "How to become a TC39 Invited Expert"
+title: 如何成为 TC39 特邀专家？
 date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
 
-## Overview
+## 概述
 
-A TC39 ***Invited Expert*** is a person who is invited to participate in TC39.  They have access to the Reflector and can attend meetings and participate in discussion similar to normal delegates.
+TC39 ***特邀专家***是受邀参加 TC39 的人。他们可以访问 Reflector，可以像普通代表一样参加会议和参与讨论。
+
 <!-- more -->
-The purpose of this role, as agreed with Ecma, is to allow individuals working on strategic open source projects to fully participate in the committee without being employed by an Ecma member.  For example, project members representing Babel and Rollup.
 
-## Joining Process
+与 Ecma 一致，此角色的目的是允许从事战略性开源项目的个人完全参与委员会，而无需受 Ecma 成员的雇用。例如，代表 Babel 和 Rollup 的项目成员。
 
-1. A delegate from an Ecma member acting as the ***sponsor*** proposes an individual to become an Invited Expert by completing the *TC39 Invited Expert Nomination Form* on TC39 Admin & Business repo.  This includes stating the reason for the nomination.
+## 加入流程
 
-1. There are 7 days for other delegates to provide supporting statements or objections on the issue.
+1. ***来自作为发起人***的 Ecma 成员的代表通过在 TC39 Admin &amp; Business repo 上*填写 TC39 特邀专家提名表*推荐个人成为特邀专家。这包括说明提名的原因。
 
-1. The Chairs review the nomination responses and decide whether to:
-   - approve (recording the conditions of participation such as time-limits or roles)
-   - reject
-   - ask the committee in the next plenary session
+2. 其他代表有 7 天的时间就该问题提供支持性声明或反对意见。
 
-1. Once approved, the Chairs request approval from the Ecma Secretariat.
+3. 主席审查提名答复并决定是否：
 
-1. Once the Ecma Secretariat has approved and the Invited Expert has signed the *Ecma Invited Expert Form*, the Chairs will execute the onboarding checklist.
+    - 批准（记录时间限制或角色等参与条件）
+    - 拒绝
+    - 在下届全体会议上询问委员会
 
-## Leaving Process
+4. 一旦获得批准，主席将请求 Ecma 秘书处的批准。
 
-1. The leaving process for an Invited Expert will be triggered by either:
-   - the individual notifying the Chairs
-   - the sponsor notifying the Chairs
-   - the Chairs determining that the conditions of participation have expired
+5. 一旦 Ecma 秘书处批准并且受邀专家签署了*Ecma 受邀专家表格*，主席将执行入职检查清单。
 
-1. Chairs will post the off-boarding form on [the Admin & Business repo](https://github.com/tc39/Admin-and-Business/issues) and send an email to the individual and the sponsor.
+## 离职流程
 
-1. There are 7 days for other delegates to re-propose the individual should they wish to extend their tenure as an invited expect.  Renewal is handled in the same way as the Joining Process.
+1. 受邀专家的离开流程将由以下任一条件触发：
 
-1. Assuming there is no renewal, the Chairs execute the off-boarding checklist.
+    - 其主动通知主席
+    - 发起人通知主席
+    - 主席确定参与条件已到期
+
+2. [主席将在 Admin &amp; Business repo](https://github.com/tc39/Admin-and-Business/issues)上张贴离职表格，并向其和赞助商发送电子邮件。
+
+3. 如果其他代表希望按照受邀预期延长其任期，则有 7 天的时间重新推荐该人。续订的处理方式与加入流程相同。
+
+4. 假设没有续约，主席会执行离职检查清单。

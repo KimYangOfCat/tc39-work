@@ -1,98 +1,102 @@
 ---
-title: "TC39 management"
+title: TC39 管理
 date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
 
-Although TC39 is a flat, consensus-based group, there are some particular organizational tasks where some committee delegates take a coordinating role.
+尽管 TC39 是一个扁平的、基于共识的小组，但仍有一些特定的组织任务需要一些委员会代表担任协调角色。
+
 <!-- more -->
-## Chair group
 
-### Who is involved
+## 主席团
 
-TC39 co-chairs: Aki Braun (@gesa), Brian Terlson (@bterlson), Yulia Startsev (@codehag)
+### 谁会参与
 
-#### How the chair group is chosen
+TC39 联合主席：Aki Braun (@gesa)、Brian Terlson (@bterlson)、Yulia Startsev (@codehag)
 
-Each year, the chair group is elected by the committee delegates towards the end of each year. The process is historically by consensus, but there may be a formal vote. If you are interested in being in the chair group, propose yourself for the role by the September meeting.
+#### 主席团是如何选择出来的
 
-See the [Ecma Rules](https://www.ecma-international.org/memento/EcmaRules.htm), section 6.2 for formal rules regarding the chair group.
+每年年底，主席团由委员会代表选举产生。该过程历来是通过协商一致的，但可能会有正式投票。如果您有兴趣加入主席团，请在 9 月的会议之前提出自己的职位。
 
-### What the group does
+有关主席团的正式规则，请参阅[Ecma 规则第 6.2 节。](https://www.ecma-international.org/memento/EcmaRules.htm)
 
-#### Running meetings
+### 主席团需要做什么
 
-The chair group runs the actual TC39 meetings. This involves
-- Finalizing the agenda and arranging items during the meeting to meet committee requirements
-- Administering the TCQ queue tool and calling on the next person to speak
-- Maintaining committee decorum, including starting meetings on time, administering the timebox, and setting breaks
+#### 主持会议
 
-##### How to help
+主席团负责线下 TC39 会议。这涉及
 
-- Make your agenda modifications, including slide links, schedule constraints, and priority ordering, ahead of the start of the TC39 meeting.
-- Help develop communication tools like TCQ -- get in contact with Brian Terlson for next steps
-- When contributing to committee discussion, use the queue tool to get in line to speak. Other interruptions should be limited strictly to clarifying questions.
-- If you want to get involved in meeting organization further, contact a member of the chair group.
+- 在会议期间完成议程并安排项目以满足委员会的要求
+- 管理 TCQ 队列工具并呼叫下一个人发言
+- 保持委员会的礼仪，包括按时开始会议、管理时间和设置休息时间
 
-#### Organizing meeting locations
+##### 如何帮助
 
-Every year, the chair group organizes meeting locations for the following year. Meetings are organized within the following guidelines:
-- Dates: Meetings are generally held Tuesday-Thursday of the last week of odd-numbered months. On top of that formula, adjustments can be made to avoid holidays and conflicting events which are important to delegates, and to accommodate the requirements of meeting hosts. It is best to publish the meeting dates internally to committee members as soon as possible, to allow delegates to plan around the dates.
-- Locations: TC39 traditionally holds some meetings each year in some in the western North America (including in the SF Bay Area and Seattle), eastern North America, and one meeting in Europe. Meeting location preferences of delegates should be reassessed each year to take into account changes in committee composition.
-- Hosts: TC39 meetings are often hosted at member organization offices, but there is no restriction for this. The chair group finds meeting hosts by asking around in committee for who wants to host a meeting, within date and location requirements.
+- 在 TC39 会议开始之前进行议程修改，包括幻灯片链接、日程限制和优先级排序。
+- 帮助开发诸如 TCQ 之类的通信工具 - 与 Brian Terlson 联系以了解后续步骤
+- 在参与委员会讨论时，使用队列工具排队发言。其他中断应严格限于澄清问题。
+- 如果你想进一步参与会议组织，请联系主席团成员。
 
-##### How to help
+#### 组织会议地点
 
-The chair group would like help in all aspects of meeting planning. Contact Daniel Ehrenberg (littledan@igalia.com) if you're interested in getting involved.
+每年，主席团都会组织下一年的会议地点。会议按照以下准则组织：
 
-#### Administrating chat channels
+- 日期：会议通常在奇数月份最后一周的周二至周四举行。在该公式之上，可以进行调整以避免对代表很重要的假期和冲突事件，并满足会议主持人的要求。最好尽快在内部向委员会成员公布会议日期，以便代表们围绕日期进行计划。
+- 地点：传统上，TC39 每年在北美西部（包括旧金山湾区和西雅图）、北美东部的一些地区举行一些会议，并在欧洲举行一次会议。应每年重新评估代表的会议地点偏好，以考虑委员会组成的变化。
+- 主持人：TC39 会议通常由成员组织办公室举办，但对此没有限制。主席小组通过在委员会中询问谁想要在日期和地点要求内主持会议来找到会议主持人。
 
-The chairs are the administrators of TC39's [chat channels](./matrix-guide.md).
-They are responsible for:
-- Giving delegates the appropriate permission levels when they are onboarded and offboarded.
-- Moderating the channels, for example blocking spammers and trolls when necessary.
+##### 如何帮助
 
-The Code of Conduct committee (see below) also has the power to moderate the chat channels as part of its responsibility to respond to conduct reports.
+主席团希望在会议计划的各个方面得到帮助。如果你有兴趣参与，请联系 Daniel Ehrenberg (littledan@igalia.com)。
 
-Moderation actions include muting a user, kicking them from a channel, banning them permanently, and removing individual messages.
+#### 管理聊天频道
 
-## ECMA-262 editor group
+主席是 TC39 [聊天频道](./matrix-guide.md)的管理员。他们负责：
 
-### Who is involved
+- 在代表加入和退出时为他们提供适当的权限级别。
+- 调节频道，例如在必要时禁言垃圾信息发送者。
 
-Editor group for ES2019: Brian Terlson (@bterlson), Jordan Harband (@ljharb), Bradley Farias (@bmeck)
+行为准则委员会（见下文）还有权调节聊天频道，作为其回应行为报告的责任的一部分。
 
-Co-editors for ES2020: Jordan Harband (@ljharb), Kevin Smith (@zenparsing)
+审核操作包括将用户静音、将他们踢出频道、永久禁止他们以及删除个人消息。
 
-### What the group does
+## ECMA-262 编辑组
 
-The editor group meets weekly to discuss issues. These meetings are open to any TC39 delegates who wish to participate.
+### 谁会参与
 
-#### Review and land proposals and PRs
+ES2019 编辑组：Brian Terlson (@bterlson)、Jordan Harband (@ljharb)、Bradley Farias (@bmeck)
 
-The editor group is responsible for being the final decision-maker on what lands in the specification draft, based on committee consensus and the technical reviews of the editor group. The editor group runs on an internal consensus model, requiring the sign-off of each editor to merge a pull request.
+ES2020 联合编辑：Jordan Harband (@ljharb)、Kevin Smith (@zenparsing)
 
-#### Produce annual specification versions
+### 编辑组需要做什么
 
-Each year, a branch of the ECMA-262 specification is made, around late January/February, to be that year's ES20xx specification. The editor group produces this branch. Editorial changes or critical fixes are sometimes backported to this branch. After the IP opt-out period is complete, the specification is finalized and sent to the ECMA GA for ratification.
+编辑组每周开会讨论问题。这些会议对任何希望参加的 TC39 代表开放。
 
-### How to get involved
+#### 审查提案和 PR
 
-- Review PRs in the [ecma262 repository](https://github.com/tc39/ecma262/pulls)
-- Contact an editor to join in on editor group meetings if you are a TC39 delegate
-- Join the editor group, which is selected by TC39 annually.
+根据委员会的共识和编辑组的技术审查，编辑组负责成为规范草案中哪些内容的最终决策者。编辑器组运行在内部共识模型上，需要每个编辑器签字才能合并拉取请求。
 
-## Code of Conduct Committee
+#### 发布年度规格版本
 
-### Who is involved
+每年，ECMA-262 规范的一个分支在 1 月下旬/2 月左右制定，成为当年的 ES20xx 规范。编辑组产生这个分支。编辑更改或关键修复有时会向后移植到此分支。在 IP 选择退出期结束后，规范最终确定并发送给 ECMA GA 进行批准。
 
-See the list [in the Code of Conduct](https://tc39.es/code-of-conduct/#code-of-conduct-committee).
+### 如何参与
 
-### What the group does
+- 查看[ecma262 仓库中的 PR](https://github.com/tc39/ecma262/pulls)
+- 如果你是 TC39 代表，请联系编辑加入编辑组会议
+- 加入TC39每年评选的编辑组。
 
-The Code of Conduct (CoC) Committee is responsible for responding to conduct reports. See the [Code of Conduct](https://tc39.es/code-of-conduct/) for more information.
+## 行为准则委员会
 
-### How to get involved
+### 谁会参与
 
-The CoC Committee is elected annually, in the November TC39 meeting. We're always looking for help from inside or outside of the group; please contact one of [the members](https://tc39.es/code-of-conduct/#code-of-conduct-committee) for more information.
+请参阅[行为准则中](https://tc39.es/code-of-conduct/#code-of-conduct-committee)的列表。
+
+### 行为准则委员会需要做什么
+
+行为准则 (CoC) 委员会负责回应行为报告。有关更多信息，请参阅[行为准则。](https://tc39.es/code-of-conduct/)
+
+### 如何参与
+
+CoC 委员会每年在 11 月的 TC39 会议上选举产生。我们一直在寻求团队内部或外部的帮助；请联系其中一位[成员](https://tc39.es/code-of-conduct/#code-of-conduct-committee)了解更多信息。

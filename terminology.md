@@ -1,5 +1,5 @@
 ---
-title: "Glossary"
+title: "词汇表"
 date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]

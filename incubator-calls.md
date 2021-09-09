@@ -1,156 +1,105 @@
 ---
-title: "TC39 Incubator Call Participation Guidelines"
+title: TC39 孵化电话会议参与指南
 date: 2021-09-01
 tags: [ECMA]
 categories: [🌏 翻译校对]
 ---
 
-A model of the TC39 working mode is this flowchart:
+TC39 工作模式的大致模型如下面的流程图：
 
 ![TC39 Working Mode](https://picbed.kimyang.cn/202109050851516.svg)
 
-Incubator calls seek to speed up the process by having a sanctioned timeslot
-every two weeks for stakeholders to present constraints. The general guiding
-principle of the incubator calls is:
+孵化电话会议旨在通过每两周为核心贡献者提供一个支持的时间段来加快提案进程。孵化电话会议的一般指导原则是：
+
 <!-- more -->
-<p align=center>
-  <i>To present and receive feedback that is relevant for eventual stage advancement.</i>
-</p>
 
-The incubator calls should be a low-stakes environment. While stage advancement
-remains the eventual goal, the call is a venue to keep engaged and discuss
-issues without feeling the pressure to drive or to block consensus.
+<p align="center">
+  <i>提出和接收与提案向最终阶段提升相关的反馈。</i></p>
 
-## Participant Categories
+孵化电话会议应该是一个低风险的环境。虽然阶段推进仍然是最终目标，但电话会议是一个保持参与和讨论问题的场所，并且不会感到推动或阻碍达成共识的压力。
 
-- _Champions_ are those in the champion group of a particular proposal.
-- _Core stakeholders_ are those who have feedback and have committed time to resolving constraints with the champions
-- _Contributors_ are those who have feedback but have not committed time to resolving constraints with the champions
-- _Facilitators_ are those running the incubator calls and is orthogonal to the other categories
+## 参与者类别
 
-## Before the Call: Setting the Agenda
+- *倡导者*是特定提案的倡导组中的人。
+- *核心贡献者*是那些有反馈并投入时间与拥护者一起解决约束的人
+- *贡献者*是那些有反馈但没有花时间解决拥护者问题的人
+- *促进者*是那些参与孵化电话会议的人，并且与其他人相互交流
 
-To focus on the guiding principle of presenting and receiving relevant feedback,
-the agenda items should be scoped. Open ended calls for feedback are
-discouraged.
+## 通话前：设定议程
 
-### Champions
+为了专注于提出和接收相关反馈的指导原则，议程项目应该有范围。不鼓励开放式的反馈电话会议。
 
-Champions should set the initial agenda by adding concrete and scoped discussion
-items to the agenda. Where there is existing discussion in e.g. a GitHub issue,
-that should be linked. Where there is no existing discussion, a short summary
-should be made available, usually in the form of a GitHub issue or PR. Champions
-are free, but not obligated and not necessarily encouraged, to make slides.
+### 倡导者
 
-Champions should be explicit about any topics that they deem out of scope. These
-may be anything at the champions’ discretion. They may include controversial
-topics that have been discussed at length and that have been decided already in
-committee, would not benefit from further feedback, or are inactionable.
+倡导者应该通过在议程中添加具体的、有范围的讨论项目来设定初始议程。如果在 GitHub issue 中存在现有讨论的内容，则添加相关链接。如果没有现有讨论的内容，则应提供简短摘要，通常采用 GitHub issue 或 PR 的形式提供。倡导者是没有酬劳的，所以他们没有义务同时也不是必须要求他们制作幻灯片。
 
-This should be done no later than 7 days before the call.
+倡导者应该明确他们认为超出范围的任何主题。这可以由拥护者自行决定。它们可能包括已被详细讨论并已在委员会中决定的有争议的话题，这些话题是不会从进一步的反馈中受益的，对此无能为力。
 
-Examples of bullet points to include on an agenda:
-- Request for feedback: FinalizationRegistry API change to per-item callback ([proposal-weakrefs#155](https://github.com/tc39/proposal-weakrefs/issues/155))
-- Request for feedback: How should we rename FinalizationGroup ([proposal-weakrefs#180](https://github.com/tc39/proposal-weakrefs/issues/180))
-- Out of scope: whether we should make GC observable (prior resolution: it is OK that WeakRefs make GC observable)
+这应该不迟于通话前 7 天完成。
 
-### Core stakeholders
+列入议程的要点示例：
 
-It is a goal of incubator group calls to bring core stakeholders together
-outside of TC39 meetings. We won't always be able to get everyone's attention,
-but when we can achieve this goal, we can make further progress in moving
-proposals forward.
+- 反馈请求：FinalizationRegistry API 更改为每项回调（[proposal-weakrefs#155](https://github.com/tc39/proposal-weakrefs/issues/155) ）
+- 反馈请求：我们应该如何重命名[FinalizationGroup ( proposal-weakrefs#180](https://github.com/tc39/proposal-weakrefs/issues/180) )
+- 超出范围：我们是否应该使 GC 可观察（先前的解决方案：WeakRefs 使 GC 可观察是可以的）
 
-Core stakeholders should review the agenda 7 days before the call and
-familiarize themselves with any materials the champions have made available.
+### 核心贡献者
 
-Core stakeholders should add feedback they would like to either present or
-request from other participants.
+在 TC39 会议之外召集核心贡献者也是孵化小组电话会议的目标。我们并不总能够引起所有人的注意，但是当我们能够实现这一目标时，我们就可以在推进提案方面取得进一步进展。
 
-In alignment with the guiding principle, core stakeholders should prioritize
-giving feedback that they feel would slow down or endanger eventual stage
-advancement. That said, the usual guidelines about feedback apply: the feedback
-should be actionable and there should be novel information available.
+核心贡献者应在电话会议前 7 天审查议程，并熟悉倡导者提供的任何材料。
 
-Core stakeholders should challenge out-of-scope limitations if they
-disagree. This can be done out-of-band or on the GitHub thread.
+核心贡献者应添加他们希望提出的反馈或征求其他参与者的反馈。
 
-Example feedback to add to the agenda ahead of the meeting:
-- Feedback (from <NAME>): FinalizationRegistry should allow users to express backpressure.
+根据指导原则，核心贡献者应优先提供他们认为会减慢或危及最终阶段进展的反馈。也就是说，关于反馈的通常准则适用：反馈应该是可操作的，并且应该有可用的新信息。
 
-Note that core stakeholders and other participants are always welcome to give
-additional feedback in meetings, as long as it's in scope for the discussion. We
-want to collect feedback early and often!
+如果核心贡献者不同意，他们应该挑战范围外的限制。这可以在会议外或在 GitHub 线程上完成。
 
-### Contributors
+在会议之前添加到议程的示例反馈：
 
-Contributors have the right but not the obligation to add feedback items to the agenda.
+- 反馈（来自<name>): FinalizationRegistry 应该允许用户表达 backpressure。</name>
 
-They are not obligated, unlike core stakeholders, to do any homework. However,
-incubation calls are meant to facilitate feedback. Because time itself during
-the meeting is limited, if a particular topic looks of interest to a
-contributor, and they would like to contribute feedback, the facilitators
-encourage contributors to page some context in.
+请注意，始终欢迎核心贡献者和其他参与者在会议中提供其他反馈。只要它在讨论范围内，我们希望尽早并经常收集反馈！
 
-To constructively enable the meeting contributors to have the appropriate
-context, topics and related resources are placed on the agenda, for all
-participants to read ahead of the meeting. Additionally, participants are
-actively encouraged to ask true clarifying questions, more than in a normal TC39
-meeting. For example, "how does this part work?" or "what do you mean by that
-term?". These questions are very useful to champions in refining how they
-present proposals.
+### 贡献者
 
-### Facilitators
+贡献者有权但没有义务将反馈项目添加到议程中。
 
-4 days before the call, facilitators will go through the agenda and make a
-judgment call on what to discuss at the next call. Overflow will be pushed to
-the next meeting.
+与核心贡献者不同，他们没有义务做任何准备工作。但是，孵化电话会议旨在促进反馈。由于会议期间的时间本身是有限的，如果贡献者对某个特定主题感兴趣，并且他们想贡献反馈，协调员鼓励贡献者翻阅一些相关文档。
 
-### No FOMO
+为了更好地使会议参与者拥有适当的背景知识，主题和相关资源被放置在议程上，供所有参与者在会议前阅读。此外，与正常的 TC39 会议相比，积极鼓励参与者提出真正的清晰的问题。例如，“这部分是如何工作的？”或“你说的这个词是什么意思？”。这些问题对于支持者完善他们提出建议的方式非常有用。
 
-Participants should feel empowered to skip a call if no agenda items of interest
-to them are present 4 days before the call. Also remember that no binding
-decisions are made in incubator calls. Consensus decisions are made in TC39
-meetings.
+### 协调员
 
-Facilitators will conclude the call early instead of using additional time for
-impromptu topics, in case those topics are of interest to participants who
-decided to skip. Instead, impromptu topics will be put on the agenda for future
-calls.
+在电话会议开始的 4 天前，协调员将检查议程，并就下一次电话会议要讨论的内容做出判断。多余的内容将被推迟到下一次会议。
 
-## During the Call
+### 没有 FOMO
 
-During the call, the agenda items will be processed in order. Unlike plenary,
-there are no hard timeboxes. Instead, the facilitators and champions may ask to
-move on to the next topic at their discretion. Discussions are facilitated by
-TCQ, like in plenary. Notes are taken, like in plenary.
+如果在通话前 4 天没有他们感兴趣的议程项目，参与者应该知晓有权退出会议。还要记住，孵化电话会议中不会做出任何约束性决定。请在 TC39 会议上做出共识决定。
 
-Meeting facilitators are specifically empowered to keep the discussion within
-the scope of the current agenda item. For example, if we're talking about one
-area of concern, and participants bring up another, facilitators may decide to
-queue that new area to be discussed later in the meeting. Or, if participants
-bring up an explicitly out-of-scope item, the facilitators may remind
-participants about the meeting scope. Action items should be made to document
-such novel out-of-scope items in new GitHub issues or Discourse threads.
+尽管决定退出的参与者可能对一些即兴主题感兴趣，但协调员应尽早结束电话会议，而不是为即兴主题留出额外的时间。相反，即兴主题将被列入未来电话会议的议程。
 
-General timeline:
-1. Quick introduction
-1. Adopting the agenda
-1. Agenda items
-1. Heads up announcements for next call
+## 电话会议期间
 
-For each agenda item:
-1. Participant provide ~5 min intro and context-setting
-1. Discussion
-1. Identify action items for champions and core stakeholders, such as following up on a thread
+在通话过程中，议程项目将按顺序处理。与全体会议不同，没有严格的时间限制。相反，主持人和拥护者可能会要求自行决定进入下一个主题。 就像在全体会议上一样。TCQ 促进讨论并记录笔记。
 
-Remember, the guiding principle is to present and receive relevant feedback in a
-more timely manner. When in doubt, yield time to other participants to present
-their feedback instead of attempting to resolve the feedback in the
-moment. Resolving the issue should ideally be done asynchronously, or in plenary
-itself, if particularly controversial.
+会议主持人被特别授权将讨论保持在当前议程项目的范围内。例如，如果我们正在讨论一个关注领域，而参与者提出另一个关注领域，协调人可能会决定将该新领域排入队列，以便在会议稍后讨论。或者，如果参与者提出明确的超出范围的项目，协调员可能会提醒参与者会议范围，以及制定行动来在 GitHub issue 或 Discourse 中记录此类新的范围外的项目。
 
-# After the Call
+一般时间表：
 
-Participants are encouraged to review the notes, which will be published 7 days
-after the meeting in [tc39/notes](https://github.com/tc39/notes).
+1. 快速介绍
+2. 通告议程
+3. 议程项目
+4. 提醒下一次通话的通知
+
+对于每个议程项目：
+
+1. 参与者提供约 5 分钟的相关内容介绍
+2. 讨论
+3. 确定倡导者和核心贡献者的行动方案，例如跟进进程
+
+请记住，指导原则是更及时地提出和接收相关反馈。如有疑问，请让其他参与者有时间提出他们的反馈，而不是立即尝试解决反馈。理想情况下，解决问题应该异步完成，或者在特别有争议的情况下在全体会议上完成。
+
+# 会议结束后
+
+鼓励与会者查看笔记，这些笔记将在会后在[ tc39/notes 中](https://github.com/tc39/notes) 公示 7 天。
